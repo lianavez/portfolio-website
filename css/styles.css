@@ -1,0 +1,112 @@
+html{
+    scroll-behavior: smooth;
+}
+ 
+body{
+    background-color: rgb(255, 223, 211);
+    margin: 0;
+    @font-face { font-family: ‘Georgia’; font-style: normal; font-weight: 100; src: url("/fonts/georgia/Georgia.ttf") format(“opentype”)}
+
+}
+
+ 
+/* NAVIGATION BAR */
+.navbar {
+    width: 100%;
+    background-color:  none;
+    overflow: auto;
+    display: flex;
+    position: fixed;
+    top: 0;
+   
+}
+ 
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    padding: 15px;
+    color: rgb(15, 115, 138);
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 0.5%;
+    text-align: center;
+    font-family: "Bodoni Moda";
+    font-weight: bold;
+  }
+ 
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    border-bottom: 3px solid rgb(15, 115, 138,0.5);;
+ 
+ 
+  }
+ 
+/* WHEN WE CLICK ON THE NAVBAR */
+  .navbar a:active {
+ 
+    background-color: none;
+  }
+ 
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+ 
+  .navbar a:navbar-right {
+    float: right;
+    text-align: right;
+    font-size: 40px;
+  }
+ 
+ 
+  h1 {
+    font-size: 30px;
+  }
+ 
+  h2 {
+    font-size: 70px;
+    margin: 0;
+    color:whitesmoke;
+    font-family:  "Yeseva One";
+    /*text-shadow: 5px 5px 90px black */
+  }
+ 
+.container {
+  /*text-shadow: 5px 5px 50px black;*/
+  font-size: 30px;
+  text-align: left;
+  margin: 0;
+  padding: 19.7%;
+  font-family: "Bodoni Moda";
+ 
+}
+ 
+ 
+ 
+#work {
+  background-color: rgb(254, 200, 216);
+  ;
+}
+ 
+#about {
+  background-color: rgb(224, 187, 228);
+  ;
+}
+ 
+#contact {
+  background-color: rgb(210, 145, 188);
+  ;
+}
+ 
+.links {
+  color: rgb(15, 115, 138);
+  text-decoration: none;
+}
+ 
+#email a.hover {
+  border-bottom: 3px solid rgb(15, 115, 138,0.5);
+  color:rgb(15, 115, 138,0.5);
+ 
+}
